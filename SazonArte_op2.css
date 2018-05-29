@@ -1,0 +1,60 @@
+/***SazonArte.css***/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#70CA26;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNHvDvVmwgPn-iKNdRRIka39wuNpaoyPXnCcrjMe4_jEpkAWcs);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+	}
+.marco{
+	margin:auto;
+	max-width: 1000px;
+}
+.cabecera{
+	display:flex;
+
+}
+.cabecera img{
+   height:30px;
+  }
+.botonera{
+	/*background-color: #F7D331;*/
+	display: flex;
+	
+}
+.botonera ul{
+	list-style-type: none;
+    flex-grow: 1;
+	display: flex;
+	/*justify-content: space-between;*/
+
+
+}
+.botonera li{
+	flex-grow: 1;
+	justify-content: space-between;
+	/*border-left:1px solid transparent;*/
+}
+.botonera a{
+	background-color: #70CA26;
+	/*color:red;*/
+
+	padding-top: 10px;
+	padding-bottom: 15px;
+	text-align: center;
+	text-decoration: none;
+	
+	width: 90%;
+	float: left;
+	/*margin:auto;*/
+
+}
+.botonera a:hover{
+	background-color: peru;
+}
