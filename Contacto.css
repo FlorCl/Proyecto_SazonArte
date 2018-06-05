@@ -1,4 +1,4 @@
-/***Contacto.css***/
+/***SContacto.css***/
 *{
 	box-sizing: border-box;
 	/*margin: 0;*/
@@ -16,6 +16,14 @@ body{
 h1{
 	font-family: 'Shadows Into Light', cursive;
 	color:#FFD700;
+	display: flex;
+	padding-left: 5px;
+	text-align: 10px 5px;
+}
+h1 img{
+	margin-top: 15px;
+	height:30px;
+    display: flex;
 }
 /*Marco*/
 .marco{
@@ -26,10 +34,7 @@ h1{
 	display:flex;
 
 }
-.cabecera img{
-   height:30px;
-   display: flex;
-  }
+
 .botonera{
 	/*background-color: #F7D331;*/
 	display: flex;
@@ -69,17 +74,22 @@ h1{
 /*Fin Marco*/
 .contacto{
 
-	width: 95%;
-	margin-top: 50px;
-	padding: 80px 80px 20px;
+	width: 60%;
+	margin-top: 20px;
+	padding: 40px 20px 10px;
 	background-color: #70CA26;
 	border-radius: 20px;
 	border: 1px solid gold;
-	float: right;
+	margin-left: auto;
+	margin-right: auto;
 }
 .contacto label{
 	display: block;
+	padding: 30px 10px 10px;
 }
 .contacto div{
 	margin-bottom: 5px;
+}
+.a{
+	float: left;
 }
