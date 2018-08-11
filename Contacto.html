@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 		<title>SazonArte -Contacto</title>
 		<link href="https://fonts.googleapis.com/css?family=Courgette|Shadows+Into+Light" rel="stylesheet">
-		<link href="Contacto.css" rel="stylesheet">
+		<link href="Contactos.css" rel="stylesheet">
 
 	</head>
 		<body>
@@ -20,16 +20,16 @@
 			<nav class="botonera">
 				<ul id="menu">
 					<li >
-						<a href="Sazonarte_op3.html">Menu Principal</a>
+						<a href="http://localhost:8080/contactos/">Menu Principal</a>
 					</li>
 					<li >
-						<a href="#">Sobre nosotros</a>
+						<a href="Nosotros.html">Sobre nosotros</a>
 					</li>
 					<li >
-						<a href="#">Guia Servicios</a>
+						<a href="Servicios.html">Guia Servicios</a>
 					</li>
 					<li>
-						<a href="#">Tips a considerar</a>
+						<a href="Tips.html">Tips a considerar</a>
 					</li>
 					<li >
 						<a href="Contacto.html">Contacto</a>
@@ -37,58 +37,64 @@
 				</ul>
 			</nav>
 		</header>
-		<form class="contacto">
-			<div>
-				<label>Fecha:</label>
-				<input type="date"><br>
-			<div>
-				<label>Tu nombre:</label>
-					<input type="text" value="">
-			</div>
-			<div>
-				<label>Edad</label>
-				<input type="number" min="18" max="130"><br>
-			<div>
-				<label>E-mail:</label>
-				<input type="text" value="">
-			</div>
-			<div>
-				<label>Telefono / Celular:</label>
-				<input type="Telefono" name="">
-			<div>
-				Sexo:
-				<label>
-				 	Femenino
-					<input type="radio" name="femenino"> 
-					Masculino
-					<input type="radio" name="Masculino">
-				</label> 	
-			</div>
-			<div>
-			<label> Pais:</label>
-				<input type="text" list="paises">
-					<datalist id="paises">
-						<option>Argentina</option>
-						<option>Brasil</option>
-						<option>Chile</option>
-						<option>Colombia</option>
-						<option>Peru</option>
-						<option>Bolivia</option>
-						<option>Paraguay</option>
-						<option>Uruguay</option>
-					</datalist>
-			</div>
-			<div>
-				<label>Mensaje:</label>
-					<textarea rows="7"></textarea>
-			</div>
-			
-			<div>
-				<input type="submit" value="Enviar">
-				<input type="reset" value="Borrar datos">
-			</div>
+		<form action="envio.php" method="post">
+					<form class="contacto">
+						<div>
+							<label>Fecha:</label>
+							<input type="date"><br>
+						<div>
+							<label>Tu nombre:</label>
+								<input type="text" value="">
+						</div>
+						<div>
+							<label>Edad</label>
+							<input type="number" min="18" max="130"><br>
+						<div>
+							<label>E-mail:</label>
+							<input type="text" value="">
+						</div>
+						<div>
+							<label>Telefono / Celular:</label>
+							<input type="Telefono" name="">
+						<div>
+							Sexo:
+							<label>
+								Femenino
+								<input type="radio" name="femenino"> 
+								Masculino
+								<input type="radio" name="Masculino">
+							</label> 	
+						</div>
+						<div>
+						<label> Pais:</label>
+							<input type="text" list="paises">
+								<datalist id="paises">
+									<option>Argentina</option>
+									<option>Brasil</option>
+									<option>Chile</option>
+									<option>Colombia</option>
+									<option>Peru</option>
+									<option>Bolivia</option>
+									<option>Paraguay</option>
+									<option>Uruguay</option>
+								</datalist>
+						</div>
+						<div>
+							<label>Asunto:</label>
+								<textarea rows="4"></textarea>
+						</div>
+						<div>
+							<label>Mensaje:</label>
+								<textarea rows="7"></textarea>
+						</div>
+						
+						<div>
+							<input type="submit" value="Enviar">
+							<input type="reset" value="Borrar datos">
+						</div>
 
-			<a href="index.html">Volver a la pagina Principal</a>
+						<a href="index.html">Volver a la pagina Principal</a>
+					</form>
 		</form>
 	</body>
 </html>

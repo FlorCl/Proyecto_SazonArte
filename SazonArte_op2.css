@@ -1,0 +1,170 @@
+/***SazonArte.css***/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 3px;
+}
+body{
+	/*background-color:#70CA26;*/
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNHvDvVmwgPn-iKNdRRIka39wuNpaoyPXnCcrjMe4_jEpkAWcs);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover; 
+    font-color:#3B0B17;
+
+	}
+h1{
+	font-family: 'Shadows Into Light', cursive;
+	color:#DF0101;
+	display: flex;
+	padding-left: 15px;
+	text-align: 20px 5px;
+}
+h1 img{
+	margin-top: 15px;
+	height:30px;
+    display: flex;
+}
+/*Marco*/
+.marco{
+	margin:auto;
+	max-width: 1200px;
+}
+.cabecera{
+	display:flex;
+
+}
+.cabecera img{
+   height:30px;
+  }
+ /*.buscador{
+ 	display: flex;
+ 	justify-content: flex-end;
+ }
+.buscador input {
+	padding: 2px 4px;
+}*/
+
+.botonera{
+	/*background-color: #F7D331;*/
+	display: flex;	
+}
+.botonera ul{
+	list-style-type: none;
+    flex-grow: 1;
+	display: flex;
+	/*justify-content: space-between;*/
+
+
+}
+.botonera li{
+	flex-grow: 1;
+	justify-content: space-between;
+	/*border-left:1px solid transparent;*/
+}
+.botonera a{
+	background-color: #70CA26;
+	/*color:red;*/
+
+	padding-top: 10px;
+	padding-bottom: 15px;
+	text-align: center;
+	text-decoration: none;
+	
+	width: 90%;
+	float: left;
+	/*margin:auto;*/
+
+}
+.botonera a:hover{
+	background-color: peru;
+}
+/*Fin Marco*/
+/*Tip recetas*/
+.receta{
+	background-color: green;
+	display:flex;
+	box-sizing: content-box;
+	flex-wrap: wrap; 
+	justify-content: space-around;
+}
+.receta h1{
+	color:#DF0101;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+.receta h2{
+	color:#FF4000:;
+	font-size: 30px;
+
+}
+.receta h3{
+	color:#FF4000:;
+	font-size: 10px;
+	display: flex;
+	padding-left: 5px;
+	text-align: 10px 5px;
+
+}
+
+.col{
+	max-height: 1000px;
+	display: flex;
+	}
+.row{
+	max-width: 1000px;
+	max-width: 1500px;
+
+}
+.texto{
+	margin: auto;
+	height: 100px;
+	color: #DF0101;
+	column-count: 2;
+	column-width: 500px;
+	column-rule: 1px double orange;
+
+}
+.pie{
+	height: 50px;  
+	margin-top: -50px; 
+	margin-top: 20px;
+	background-color: #70CA26;
+	padding:5px 0px;
+    clear: both;
+    /*background: #286af0;*/
+
+}
+.direccion{
+	font-color: #DF0101;
+	text-align: justify-all;
+	background-color: #70CA26;
+	
+}
+.copyright{
+	padding-left: 300px;
+	text-align: right;
+	background-color: #70CA26;
+}
+.icono_pie {
+text-align:center;
+margin: 0 auto;
+/*padding:15px;*/
+background-color:#70CA26;
+}
+
+.icono_pie ul li {
+list-style-type: none;
+text-align:center;
+margin-left:5px;
+}
+
+.icono_pie ul li:hover{
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+text-shadow: 10px 5px 5px #000;
+} 
+

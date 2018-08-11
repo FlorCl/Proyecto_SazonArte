@@ -1,0 +1,108 @@
+/***tips.css***/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:color: #502213;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNHvDvVmwgPn-iKNdRRIka39wuNpaoyPXnCcrjMe4_jEpkAWcs);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+	}
+h1{
+	font-family: 'Shadows Into Light', cursive;
+	color:#FFD700;
+	display: flex;
+	padding-left: 5px;
+	text-align: 10px 5px;
+}
+h1 img{
+	margin-top: 15px;
+	height:30px;
+    display: flex;
+}
+/*Marco*/
+.marco{
+	margin:auto;
+	max-width: 1000px;
+}
+.cabecera{
+	display:flex;
+
+}
+.cabecera img{
+   height:30px;
+   display: flex;
+  }
+.botonera{
+	/*background-color: #F7D331;*/
+	display: flex;
+	
+}
+.botonera ul{
+	list-style-type: none;
+    flex-grow: 1;
+	display: flex;
+	font-family:'Shadows Into Light', cursive;
+	/*justify-content: space-between;*/
+
+
+}
+.botonera li{
+	flex-grow: 1;
+	justify-content: space-between;
+	/*border-left:1px solid transparent;*/
+}
+.botonera a{
+	background-color: #70CA26;
+	color: #502213;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+	
+	width: 90%;
+	float: left;
+	/*margin:auto;*/
+
+}
+.botonera a:hover{
+	background-color: peru;
+}
+/*Fin Marco*/
+.texto{
+	/*max-width: 10000px;*/
+	margin: auto;
+	height: 1000px;
+	color: #0C0101;
+	column-count: 2;
+	column-width: 5000px;
+	column-rule: 1px double orange;
+
+
+}
+.pie{
+	margin-top: 20px;
+	background-color: orange;
+	/*max-width:1000px;*/
+	font-family:'Shadows Into Light', cursive;
+	margin: 0 auto;
+	
+}
+.pie direccion {
+	text-align: center;
+	height: 60px;
+	width: 40px;
+	float:left;
+	color: #502213;
+	
+}
+
+.pie p{
+	text-align: right;
+}
+

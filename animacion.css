@@ -1,0 +1,17 @@
+/***animacion.css***/
+
+@keyframes super{
+	to{
+		background-position-x: -8000px;
+	}
+}
+.ups{
+	width: 1500px;
+	height: 1000px;
+	
+	background-image: url("reparacion-de-computadoras-gif-8.gif");
+	
+	animation-name: super;
+	animation-duration: 1s;
+	animation-timing-function: steps(5);
+	}
