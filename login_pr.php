@@ -1,13 +1,12 @@
 <?php
-	// login_pr.php
 	
-	//Consigo los datos del form
+	//Datos
 		$usuario = $_POST['usuario'];
-		$pass = md5($_POST['pass']); 
+		$pass = $_POST['pass']; 
 	
-	//Me conecto a la BD
+	//Conexin
 		include("conexion.php");
-	//Genero la query
+	//Query
 	
 		$preg = "select * from usuarios
 			where usuario = '$usuario'
@@ -17,7 +16,7 @@
 		
 	
 		if ($preg_ej === false ){
-			echo "Error, ver SQL";
+			echo "Error!!!";
 		}else{
 		
 			$cant = mysqli_num_rows($preg_ej);
@@ -27,13 +26,14 @@
 				$reg = mysqli_fetch_array($preg_ej);
 
 				session_start();
-				$_SESSION['id_usu'] = $reg['id_usu'];
+				$_SESSION['id_usu'] = $reg['id_usuario'];
 				
-				//Reenviar a pagina interna
-				header ("location:SazonArte_op2.html");
+				//Reenviar a pagina inicial
+				header ("location:https://sazonarte.netlify.com/sazonarte_op3");
 				
 				
-			}else{
+			}
+			else{
 				echo "Datos incorrectos";
 			}
 		

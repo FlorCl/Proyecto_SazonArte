@@ -1,26 +1,33 @@
-/***Contactos.css***/
 *{
 	box-sizing: border-box;
-	/*margin: 0;*/
-	padding: 0;
+	margin: 0;
+	padding: 3px;
 }
 body{
-	background-color:#70CA26;
+	/*background-color:#70CA26;*/
 	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNHvDvVmwgPn-iKNdRRIka39wuNpaoyPXnCcrjMe4_jEpkAWcs);
     background-repeat: no-repeat;
     background-position: center ;
-    background-size: cover;
-    margin: auto;
+    background-size: cover; 
+    font-color:#3B0B17;
 
 	}
 h1{
 	font-family: 'Shadows Into Light', cursive;
-	color:#FFD700;
+	color:#DF0101;
+	display: flex;
+	padding-left: 15px;
+	text-align: 20px 5px;
 }
+/* h1 img{
+	margin-top: 15px;
+	height:30px;
+    display: flex;
+}*/
 /*Marco*/
 .marco{
 	margin:auto;
-	max-width: 1000px;
+	max-width: 1200px;
 }
 .cabecera{
 	display:flex;
@@ -28,18 +35,23 @@ h1{
 }
 .cabecera img{
    height:30px;
-   display: flex;
   }
+ /*.buscador{
+ 	display: flex;
+ 	justify-content: flex-end;
+ }
+.buscador input {
+	padding: 2px 4px;
+}*/
+
 .botonera{
 	/*background-color: #F7D331;*/
-	display: flex;
-	
+	display: flex;	
 }
 .botonera ul{
 	list-style-type: none;
     flex-grow: 1;
 	display: flex;
-	font-family:'Shadows Into Light', cursive;
 	/*justify-content: space-between;*/
 
 
@@ -51,10 +63,10 @@ h1{
 }
 .botonera a{
 	background-color: #70CA26;
-	color:#FFD700;
+	/*color:red;*/
 
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	text-align: center;
 	text-decoration: none;
 	
@@ -67,21 +79,6 @@ h1{
 	background-color: peru;
 }
 /*Fin Marco*/
-.contacto{
-
-	width: 95%;
-	margin-top: 50px;
-	padding: 60px 40px 20px;
-	background-color: #70CA26;
-	border-radius: 20px;
-	border: 1px solid gold;
-	float: right;
-}
-.contacto label{
-	display: block;
-}
-.contacto div{
-	margin-bottom: 5px;
 }
 .boton {
 padding: 5px; 
