@@ -29,7 +29,7 @@
 				$_SESSION['id_usu'] = $reg['id_usuario'];
 				
 				//Reenviar a pagina inicial
-				header ("location:https://sazonarte.netlify.com");
+				header ("location:https://sazonarte.netlify.com/sazonarte_op3");
 				
 				
 			}

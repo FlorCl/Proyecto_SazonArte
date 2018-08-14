@@ -26,6 +26,10 @@
 			<input type="text" name="apellido" id="apellido" >
 			</div>
 			<div class="contacto">
+			<label for="email">Edad</label>
+			<input type="text" name="edad" id="edad" >
+			</div>
+			<div class="contacto">
 			<label for="email">Email</label>
 			<input type="text" name="email" id="email" >
 			</div>
