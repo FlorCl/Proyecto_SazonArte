@@ -63,7 +63,7 @@
 				<div class="copyright">
 					<p>&copy; 2018-Sazonarte - Todos los derechos reservados</p>
 				</div> -->
-		<a href="https://sazonarte.netlify.com/sazonarte_op2">Volver a la pagina Principal</a>
+		<a href="https://sazonarte.netlify.com">Volver a la pagina Principal</a>
 		</nav>
 	</body>
 </html>
